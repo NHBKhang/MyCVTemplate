@@ -115,7 +115,7 @@ body {
 }
 
 .info-section {
-	margin: 1rem 0;
+	margin: 0.25rem 0;
 }
 
 .info-section span {
@@ -374,6 +374,10 @@ body {
 }
 
 /* Interests Section */
+.interests {
+	margin: 12px 0 !important;
+}
+
 .outer-frame {
 	border: 1px solid var(--color-gray-dark-3);
 	border-radius: 5px;
