@@ -586,3 +586,13 @@ i:hover {
 .profession {
     text-shadow: 1px 1px lightgray;
 }
+
+.navbar-toggler {
+	background-color: #4d4d4d !important;
+	border: 2px solid black;
+}
+
+.navbar-toggler:hover {
+	background-color: #606060 !important;
+	border: 2px solid rgb(127, 126, 126) !important;
+}
