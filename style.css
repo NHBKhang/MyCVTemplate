@@ -35,6 +35,14 @@ body {
 	background-color: var(--color-gray-light-3);
 }
 
+.row {
+	flex-direction: row;
+}
+
+.collumn {
+	flex-direction: column;
+}
+
 .wrapper {
 	margin: 0 auto;
 	max-width: 70rem;
