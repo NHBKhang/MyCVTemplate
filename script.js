@@ -1,9 +1,9 @@
 function exportToPDF() {
     var table = document.querySelector('#cv');
     html2pdf(table, {
-        margin: -2,
+        margin: 0,
         filename: 'NguyenHaBaoKhang_CV',
-        image: {type: 'jpeg', quality: 1},
+        image: {type: 'jpeg', quality: 0.98},
         html2canvas: {scale: 2},
         jsPDF: {unit: 'mm', format: 'a4', orientation: 'portrait'}
     }).then(function (canvas) {
