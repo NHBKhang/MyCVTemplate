@@ -47,7 +47,7 @@ body {
 	background-color: #002b64 !important;
 	color: #ffffff !important;
 	transform: scale(1.05);
-    transition: transform 0.25s ease;
+	transition: transform 0.25s ease;
 }
 
 .footer {
@@ -72,24 +72,24 @@ body {
 	font-size: 1.75rem !important;
 	font-family: logo-font;
 	color: whitesmoke !important;
-    text-shadow: 1px 1px lightskyblue;
+	text-shadow: 1px 1px lightskyblue;
 }
 
 .navbar-brand:hover {
 	color: rgb(219, 219, 219) !important;
 	transform: scale(1.05);
-    transition: transform 0.25s ease;
+	transition: transform 0.25s ease;
 }
 
 .nav-link {
 	color: whitesmoke !important;
-    text-shadow: 1px 1px lightgoldenrodyellow;
+	text-shadow: 1px 1px lightgoldenrodyellow;
 }
 
 .nav-link:hover {
 	color: rgb(180, 180, 180) !important;
 	transform: scale(1.05);
-    transition: transform 0.25s ease;
+	transition: transform 0.25s ease;
 }
 
 .row {
@@ -122,7 +122,7 @@ body {
 
 .photo:hover {
 	transform: scale(1.25);
-    transition: transform 0.5s ease;
+	transition: transform 0.5s ease;
 	cursor: none;
 }
 
@@ -559,51 +559,51 @@ body {
 	src: url(/font/Godshomedemo.ttf);
 }
 
-#return > button {
-    font-size: 2.5rem !important;
-    color: rgb(75, 75, 243);
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    width: 30px;
-    height: 30px;
-    display: inline;
-    padding: 0 35px 50px 10px !important;
-    background-color: rgba(176, 176, 176, 0.75);
-    opacity: 0.8;
-    text-align: justify;
-    text-shadow: 3px 1px lightskyblue;
-    z-index: 1000;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-    margin: .75rem;
+#return>button {
+	font-size: 2.5rem !important;
+	color: rgb(75, 75, 243);
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	width: 30px;
+	height: 30px;
+	display: inline;
+	padding: 0 35px 50px 10px !important;
+	background-color: rgba(176, 176, 176, 0.75);
+	opacity: 0.8;
+	text-align: justify;
+	text-shadow: 3px 1px lightskyblue;
+	z-index: 1000;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	margin: .75rem;
 }
 
 #return>button:hover {
-    background-color: rgb(205, 220, 220);
-    color: dodgerblue;
-    border-radius: 5px;
+	background-color: rgb(205, 220, 220);
+	color: dodgerblue;
+	border-radius: 5px;
 	transform: scale(1.15);
-    transition: transform 0.5s ease;
+	transition: transform 0.5s ease;
 }
 
 i:hover {
-    transform: scale(1.2);
+	transform: scale(1.2);
 	transition: tranform 0.2s ease-out;
 }
 
 .name {
-    text-shadow: 2px 1px lightskyblue;
+	text-shadow: 2px 1px lightskyblue;
 }
 
 .name:hover {
-    transform: scale(1.1);
+	transform: scale(1.1);
 	transition: tranform 0.25s ease-out;
 }
 
 .profession:hover {
-    transform: scale(1.1);
+	transform: scale(1.1);
 	transition: tranform 0.2s ease-out;
 }
 
@@ -615,4 +615,164 @@ i:hover {
 .navbar-toggler:hover {
 	background-color: #606060 !important;
 	border: 2px solid rgb(127, 126, 126) !important;
+}
+
+/* Animation */
+@-webkit-keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+.fadeIn {
+	opacity: 0;
+	-webkit-animation: fadeIn ease-in 1;
+	-moz-animation: fadeIn ease-in 1;
+	animation: fadeIn ease-in 1;
+
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+
+	-webkit-animation-duration: 1s;
+	-moz-animation-duration: 1s;
+	animation-duration: 1s;
+}
+
+.fadeIn.first {
+	-webkit-animation-delay: 0.2s;
+	-moz-animation-delay: 0.2s;
+	animation-delay: 0.2s;
+}
+
+.fadeIn.second {
+	-webkit-animation-delay: 0.4s;
+	-moz-animation-delay: 0.4s;
+	animation-delay: 0.4s;
+}
+
+.fadeIn.third {
+	-webkit-animation-delay: 0.6s;
+	-moz-animation-delay: 0.6s;
+	animation-delay: 0.6s;
+}
+
+.fadeIn.fourth {
+	-webkit-animation-delay: 0.8s;
+	-moz-animation-delay: 0.8s;
+	animation-delay: 0.8s;
+}
+
+.fadeIn.fifth {
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	animation-delay: 1s;
+}
+
+.fadeInDown {
+	-webkit-animation-name: fadeInDown;
+	animation-name: fadeInDown;
+	-webkit-animation-duration: 0.75s;
+	animation-duration: 0.75s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+
+.fadeInDown.second {
+	-webkit-animation-name: fadeInDown;
+	animation-name: fadeInDown;
+	-webkit-animation-duration: 1.2s;
+	animation-duration: 1.2s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		-webkit-transform: translate3d(0, -100%, 0);
+		transform: translate3d(0, -100%, 0);
+	}
+
+	100% {
+		opacity: 1;
+		-webkit-transform: none;
+		transform: none;
+	}
+}
+
+@keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		-webkit-transform: translate3d(0, -100%, 0);
+		transform: translate3d(0, -100%, 0);
+	}
+
+	100% {
+		opacity: 1;
+		-webkit-transform: none;
+		transform: none;
+	}
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: rgb(0, 0, 0, .75);
+	overflow: hidden;
+	width: 100%;
+	height: 0;
+	transition: .3s ease;
+}
+
+.box-container:hover>.overlay {
+	height: 90%;
+}
+
+@media screen and (max-width: 576px) {
+	.box-container:hover>.overlay {
+		height: 95%;
+	}
+}
+
+.hidden-box {
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: justify;
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	margin: 0;
+	overflow: hidden;
 }
