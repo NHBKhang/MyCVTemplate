@@ -1,0 +1,6 @@
+$linear-bg: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+
+body {
+	background-color: #FFDEE9;
+	background-image: $linear-bg;
+}
