@@ -36,7 +36,6 @@ body {
 	min-height: 100vh;
 	background-color: #FFDEE9;
 	background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
-
 }
 
 .btn-primary {
@@ -47,6 +46,8 @@ body {
 .btn-primary:hover {
 	background-color: #002b64 !important;
 	color: #ffffff !important;
+	transform: scale(1.05);
+    transition: transform 0.25s ease;
 }
 
 .footer {
@@ -75,7 +76,9 @@ body {
 }
 
 .navbar-brand:hover {
-	color: rgb(203, 198, 198) !important;
+	color: rgb(219, 219, 219) !important;
+	transform: scale(1.05);
+    transition: transform 0.25s ease;
 }
 
 .nav-link {
@@ -85,6 +88,8 @@ body {
 
 .nav-link:hover {
 	color: rgb(180, 180, 180) !important;
+	transform: scale(1.05);
+    transition: transform 0.25s ease;
 }
 
 .row {
@@ -113,6 +118,12 @@ body {
 	background-color: var(--color-gray-light-1);
 	box-shadow: 5px 0px 15px 0px #b3b3b3;
 	z-index: 5;
+}
+
+.photo:hover {
+	transform: scale(1.25);
+    transition: transform 0.5s ease;
+	cursor: none;
 }
 
 .profile {
@@ -573,18 +584,27 @@ body {
     background-color: rgb(205, 220, 220);
     color: dodgerblue;
     border-radius: 5px;
+	transform: scale(1.15);
+    transition: transform 0.5s ease;
 }
 
 i:hover {
-	font-size: 1.05rem;
+    transform: scale(1.2);
+	transition: tranform 0.2s ease-out;
 }
 
 .name {
     text-shadow: 2px 1px lightskyblue;
 }
 
-.profession {
-    text-shadow: 1px 1px lightgray;
+.name:hover {
+    transform: scale(1.1);
+	transition: tranform 0.25s ease-out;
+}
+
+.profession:hover {
+    transform: scale(1.1);
+	transition: tranform 0.2s ease-out;
 }
 
 .navbar-toggler {

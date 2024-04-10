@@ -1,6 +1,10 @@
+//Just 4 Fun file
 $linear-bg: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
 
 body {
 	background-color: #FFDEE9;
 	background-image: $linear-bg;
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
 }
