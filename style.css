@@ -58,18 +58,18 @@ body {
 .footer {
 	padding: 0.15rem 0.1rem 1.5rem;
 	margin: 0 !important;
-	background: linear-gradient(to bottom right, 
-	rgba(217, 0, 255, 0.35) 35%, 
-	rgba(255, 45, 237, 0.35) 70%, 
-	rgba(153, 50, 205, 0.35)) !important;
+	background: linear-gradient(to bottom right,
+			rgba(217, 0, 255, 0.35) 35%,
+			rgba(255, 45, 237, 0.35) 70%,
+			rgba(153, 50, 205, 0.35)) !important;
 }
 
 .navbar {
 	background: linear-gradient(to bottom right,
-	rgb(25, 25, 25, 0.9) 25%, 
-	rgb(40, 40, 40, 0.9) 55%, 
-	rgb(55, 55, 55, 0.9) 85%, 
-	rgb(70, 70, 70, 0.9)) !important;
+			rgb(25, 25, 25, 0.9) 25%,
+			rgb(40, 40, 40, 0.9) 55%,
+			rgb(55, 55, 55, 0.9) 85%,
+			rgb(70, 70, 70, 0.9)) !important;
 	position: sticky !important;
 	top: 0;
 	width: 100%;
@@ -458,8 +458,8 @@ body {
 }
 
 /* Interests Section */
-.interests {
-	margin: 12px 0 !important;
+.skills {
+	margin: 15px 0 !important;
 }
 
 .outer-frame {
@@ -792,4 +792,10 @@ i:hover {
 	padding: 10px;
 	margin: 0;
 	overflow: hidden;
+}
+
+.default {
+	opacity: 1 !important;
+	-webkit-transform: none !important;
+	transform: none !important;
 }
