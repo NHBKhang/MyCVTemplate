@@ -1,6 +1,7 @@
 function exportToPDF() {
     if (confirm("Bạn có muốn in CV không?")){
         var table = document.querySelector('#cv');
+        table.classList.remove('fadeInDown');
         table.classList.add('default');
         html2pdf(table, {
             margin: -2,
