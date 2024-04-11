@@ -1,8 +1,8 @@
-function exportToPDF() {
+async function exportToPDF() {
     if (confirm("Bạn có muốn in CV không?")){
         var table = document.querySelector('#cv');
-        table.classList.remove('fadeInDown');
-        table.classList.add('default');
+        await table.classList.remove('fadeInDown');
+        await table.classList.add('default');
         html2pdf(table, {
             margin: -2,
             filename: 'NguyenHaBaoKhang_CV',
